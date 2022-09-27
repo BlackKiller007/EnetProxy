@@ -25,10 +25,10 @@ class server {
        static std::vector<server::Item> inventory;
     int m_user = 0;
     int m_token = 0;
-    std::string m_server = "213.179.209.168";
+    std::string m_server = "20.104.189.224";
     std::string meta = "NULL";
 
-    int m_port = 17198;
+    int m_port = 17091;
     int m_proxyport = 17191;
     world m_world;
     bool start();
